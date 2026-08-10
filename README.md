@@ -9,10 +9,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0594-longest-harmonious-subsequence) |
+| [1763-longest-nice-substring](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1763-longest-nice-substring) |
 ## Sliding Window
 |  |
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0594-longest-harmonious-subsequence) |
+| [1763-longest-nice-substring](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1763-longest-nice-substring) |
 ## Sorting
 |  |
 | ------- |
@@ -21,4 +23,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0594-longest-harmonious-subsequence) |
+## String
+|  |
+| ------- |
+| [1763-longest-nice-substring](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1763-longest-nice-substring) |
+## Divide and Conquer
+|  |
+| ------- |
+| [1763-longest-nice-substring](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1763-longest-nice-substring) |
+## Bit Manipulation
+|  |
+| ------- |
+| [1763-longest-nice-substring](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1763-longest-nice-substring) |
 <!---LeetCode Topics End-->
