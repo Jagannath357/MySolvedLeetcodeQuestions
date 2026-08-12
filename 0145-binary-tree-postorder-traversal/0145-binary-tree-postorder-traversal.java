@@ -17,18 +17,19 @@ import java.util.ArrayList;
  * }
  */
 class Solution {
-    List<Integer> postOrderTraversal = new ArrayList<>();
-    public void postOrder(TreeNode root){
+    
+    public void postOrder(TreeNode root, List<Integer> postOrderTraversal){
         if(root == null){
             return;
         }
-        postOrder(root.left);
-        postOrder(root.right);
+        postOrder(root.left, postOrderTraversal);
+        postOrder(root.right, postOrderTraversal);
         postOrderTraversal.add(root.val);
     }
 
     public List<Integer> postorderTraversal(TreeNode root) {
-        postOrder(root);
+        List<Integer> postOrderTraversal = new ArrayList<>();
+        postOrder(root, postOrderTraversal);
         return postOrderTraversal;
     }
 }
