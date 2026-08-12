@@ -40,18 +40,25 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0110-balanced-binary-tree](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0110-balanced-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0111-minimum-depth-of-binary-tree) |
+| [0145-binary-tree-postorder-traversal](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0145-binary-tree-postorder-traversal) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0110-balanced-binary-tree](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0110-balanced-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0111-minimum-depth-of-binary-tree) |
+| [0145-binary-tree-postorder-traversal](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0145-binary-tree-postorder-traversal) |
 ## Binary Tree
 |  |
 | ------- |
 | [0110-balanced-binary-tree](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0110-balanced-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0111-minimum-depth-of-binary-tree) |
+| [0145-binary-tree-postorder-traversal](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0145-binary-tree-postorder-traversal) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0111-minimum-depth-of-binary-tree) |
+## Stack
+|  |
+| ------- |
+| [0145-binary-tree-postorder-traversal](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0145-binary-tree-postorder-traversal) |
 <!---LeetCode Topics End-->
