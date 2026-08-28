@@ -10,11 +10,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0594-longest-harmonious-subsequence) |
 | [1763-longest-nice-substring](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1763-longest-nice-substring) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 ## Sliding Window
 |  |
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0594-longest-harmonious-subsequence) |
 | [1763-longest-nice-substring](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1763-longest-nice-substring) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 ## Sorting
 |  |
 | ------- |
@@ -23,10 +25,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0594-longest-harmonious-subsequence) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 ## String
 |  |
 | ------- |
 | [1763-longest-nice-substring](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1763-longest-nice-substring) |
+| [1876-substrings-of-size-three-with-distinct-characters](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 ## Divide and Conquer
 |  |
 | ------- |
