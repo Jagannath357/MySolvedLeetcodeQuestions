@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0594-longest-harmonious-subsequence) |
+| [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 ## Hash Table
 |  |
 | ------- |
@@ -17,10 +18,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0594-longest-harmonious-subsequence](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0594-longest-harmonious-subsequence) |
 | [1763-longest-nice-substring](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1763-longest-nice-substring) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
+| [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 ## Sorting
 |  |
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0594-longest-harmonious-subsequence) |
+| [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 ## Counting
 |  |
 | ------- |
