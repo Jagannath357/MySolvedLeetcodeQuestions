@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0594-longest-harmonious-subsequence](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0594-longest-harmonious-subsequence) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2760-longest-even-odd-subarray-with-threshold](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/2760-longest-even-odd-subarray-with-threshold) |
@@ -89,4 +90,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2269-find-the-k-beauty-of-a-number](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/2269-find-the-k-beauty-of-a-number) |
+## Two Pointers
+|  |
+| ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0026-remove-duplicates-from-sorted-array) |
 <!---LeetCode Topics End-->
