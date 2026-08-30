@@ -1,21 +1,33 @@
 class Solution {
     public int minimumRecolors(String blocks, int k) {
-        int minWhite = Integer.MAX_VALUE;
-        int n = blocks.length();
-        char[] arr = blocks.toCharArray();
-        int i = 0, j = i+k-1, m;
         int wCount = 0;
-        while(j < n){
-            m = i;
-            wCount = 0;
-            while(m <= j){
-                if(arr[m] == 'W') wCount++;
-                m++;
+        int n = blocks.length();
+        
+        // 1. Count 'W' blocks in the very first window of size k
+        for (int i = 0; i < k; i++) {
+            if (blocks.charAt(i) == 'W') {
+                wCount++;
             }
-            if(minWhite > wCount) minWhite = wCount;
-            i++;
-            j++;
         }
+        
+        // Initialize our minimum with the first window's count
+        int minWhite = wCount;
+        
+        // 2. Slide the window across the rest of the string
+        for (int i = k; i < n; i++) {
+            // Add incoming character on the right
+            if (blocks.charAt(i) == 'W') {
+                wCount++;
+            }
+            // Remove outgoing character from the left
+            if (blocks.charAt(i - k) == 'W') {
+                wCount--;
+            }
+            
+            // Keep track of the minimum operations found so far
+            minWhite = Math.min(minWhite, wCount);
+        }
+        
         return minWhite;
     }
 }
