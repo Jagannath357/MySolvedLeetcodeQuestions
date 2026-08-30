@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2269-find-the-k-beauty-of-a-number](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/2269-find-the-k-beauty-of-a-number) |
+| [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
 ## Sorting
 |  |
 | ------- |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1763-longest-nice-substring](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1763-longest-nice-substring) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [2269-find-the-k-beauty-of-a-number](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/2269-find-the-k-beauty-of-a-number) |
+| [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
 ## Divide and Conquer
 |  |
 | ------- |
