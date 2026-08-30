@@ -1,55 +1,30 @@
 class Solution {
     public int longestAlternatingSubarray(int[] nums, int threshold) {
-        int n = nums.length;
-        int maxLength = 0, chainCount = 0;
-        int i = 0;
-        boolean found = false;
-        boolean isEven = false;
-        while(i < n){
-            
-            if(found){
-                if(isEven){
-                    if(nums[i] % 2 != 0 && nums[i] <= threshold){
-                        chainCount++;
-                        isEven = false;
-                    }else{
-                        found = false;
-                        maxLength = Math.max(maxLength, chainCount);
-                        chainCount = 0;
-                        if(nums[i] % 2 == 0 && nums[i] <= threshold){
-                            chainCount = 1;
-                            isEven = true;
-                            found = true;
-                        }
-                    }
-                }else{
-                    if(nums[i] % 2 == 0 && nums[i] <= threshold){
-                        chainCount++;
-                        isEven = true;
-                    }else{
-                        found = false;
-                        maxLength = Math.max(maxLength, chainCount);
-                        chainCount = 0;
-                        if(nums[i] % 2 == 0 && nums[i] <= threshold){
-                            chainCount = 1;
-                            isEven = true;
-                            found = true;
-                        }
-                    }
-                }
-            }else{
+        int maxLength = 0;
+        int chainCount = 0;
+        
+        for (int i = 0; i < nums.length; i++) {
+            // Rule 3 Violation: If the value exceeds threshold, no chain can exist/continue here
+            if (nums[i] > threshold) {
+                chainCount = 0; 
+            } 
+            // Rule 2 Check: If a chain is already running, check if it alternates with the previous item
+            else if (chainCount > 0 && nums[i] % 2 != nums[i - 1] % 2) {
+                chainCount++;
+            } 
+            // Rule 1 Check: If the chain broke or hasn't started, check if this element can start a fresh chain
+            else if (nums[i] % 2 == 0) {
+                chainCount = 1;
+            } 
+            // Default Case: Odd number trying to start a chain when chainCount is 0
+            else {
                 chainCount = 0;
-                if(nums[i] % 2 == 0 && nums[i] <= threshold){
-                    chainCount++;
-                    found  = true;
-                    isEven = true;
-                }else{
-                    maxLength = Math.max(maxLength, chainCount);
-                }
             }
-            i++;
+            
+            // Continuously update the maximum length seen so far
+            maxLength = Math.max(maxLength, chainCount);
         }
-        maxLength = Math.max(maxLength, chainCount);
+        
         return maxLength;
     }
 }
