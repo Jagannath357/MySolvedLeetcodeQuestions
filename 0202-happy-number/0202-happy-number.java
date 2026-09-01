@@ -10,8 +10,8 @@ class Solution {
         return sum;
     }
     public boolean isHappy(int n) {
-        if(n == 1) return true;
-        if(n == 0) return false;
+        // if(n == 1) return true;
+        // if(n == 0) return false;
         int slow = n;
         int fast = getSum(n);
         while(fast != 1 && slow != fast){
