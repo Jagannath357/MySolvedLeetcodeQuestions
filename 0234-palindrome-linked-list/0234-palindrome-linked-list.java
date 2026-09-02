@@ -9,50 +9,55 @@
  * }
  */
 class Solution {
-    public ListNode reverseList(ListNode head) {
+    // Your highly efficient iterative reverse function
+    private ListNode reverseList(ListNode head) {
         ListNode prev = null;
         ListNode curr = head;
-        ListNode next = null;
-
         while (curr != null) {
-            next = curr.next; // 1. Temporarily store the next node
-            curr.next = prev; // 2. Reverse the link (point backwards)
-            prev = curr; // 3. Move 'prev' one step forward
-            curr = next; // 4. Move 'curr' one step forward
+            ListNode nextNode = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = nextNode;
         }
-
-        // 'prev' is now pointing to the new head of the reversed list
         return prev;
     }
     
     public boolean isPalindrome(ListNode head) {
-        ListNode temp = head;
-        int l = 0;
-        while (temp != null) {
-            temp = temp.next;
-            l++;
+        // Base case: empty list or single element is always a palindrome
+        if (head == null || head.next == null) {
+            return true;
         }
-        if(l == 0 || l == 1) return true;
-        int n = l / 2;
-        temp = head;
-        while (n != 0) {
-            temp = temp.next;
-            n--;
+        
+        // 1. Find the end of the first half using fast/slow pointers
+        ListNode slow = head;
+        ListNode fast = head;
+        while (fast.next != null && fast.next.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
         }
-        ListNode newNode = null;
-        if (l % 2 == 0) {
-            newNode = temp;
-        } else {
-            newNode = temp.next;
+        
+        // 2. Reverse the second half of the list
+        // 'slow.next' is the start of the second half
+        ListNode firstHalfEnd = slow;
+        ListNode secondHalfStart = reverseList(firstHalfEnd.next);
+        
+        // 3. Check if the values match
+        ListNode p1 = head;
+        ListNode p2 = secondHalfStart;
+        boolean isPalindrome = true;
+        
+        while (p2 != null) { // We only need to check up to the end of the second half
+            if (p1.val != p2.val) {
+                isPalindrome = false;
+                break; // Break early if asymmetry is found
+            }
+            p1 = p1.next;
+            p2 = p2.next;
         }
-        newNode = reverseList(newNode);
-        temp = head;
-        while (newNode != null) {
-            if (temp.val != newNode.val)
-                return false;
-            temp = temp.next;
-            newNode = newNode.next;
-        }
-        return true;
+        
+        // 4. Clean up: Restore the original list structure
+        firstHalfEnd.next = reverseList(secondHalfStart);
+        
+        return isPalindrome;
     }
 }
