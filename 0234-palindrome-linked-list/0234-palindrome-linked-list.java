@@ -33,11 +33,9 @@ class Solution {
             l++;
         }
         if(l == 0 || l == 1) return true;
-        System.out.println("L = "+l);
         int n = l / 2;
         temp = head;
         while (n != 0) {
-            System.out.println("Temp Value = "+temp.val);
             temp = temp.next;
             n--;
         }
@@ -47,13 +45,9 @@ class Solution {
         } else {
             newNode = temp.next;
         }
-        System.out.println(newNode.val);
-        System.out.println();
-
         newNode = reverseList(newNode);
         temp = head;
         while (newNode != null) {
-            System.out.println("Temp Value: " + temp.val + ", NewNode value: " + newNode.val);
             if (temp.val != newNode.val)
                 return false;
             temp = temp.next;
