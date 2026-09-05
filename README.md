@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0345-reverse-vowels-of-a-string](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0345-reverse-vowels-of-a-string) |
 | [1763-longest-nice-substring](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1763-longest-nice-substring) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 | [2269-find-the-k-beauty-of-a-number](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/2269-find-the-k-beauty-of-a-number) |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0202-happy-number](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0234-palindrome-linked-list) |
+| [0345-reverse-vowels-of-a-string](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0345-reverse-vowels-of-a-string) |
 ## Floyd's Cycle Finding Algorithm
 |  |
 | ------- |
