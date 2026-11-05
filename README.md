@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0202-happy-number) |
+| [0290-word-pattern](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0290-word-pattern) |
 | [0594-longest-harmonious-subsequence](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0594-longest-harmonious-subsequence) |
 | [1763-longest-nice-substring](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1763-longest-nice-substring) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0290-word-pattern](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0290-word-pattern) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/0345-reverse-vowels-of-a-string) |
 | [1763-longest-nice-substring](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1763-longest-nice-substring) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/Jagannath357/MySolvedLeetcodeQuestions/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
